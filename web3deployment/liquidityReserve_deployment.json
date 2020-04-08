@@ -1,0 +1,43 @@
+{
+  "tokens": {
+    "2KEY": {
+      "name": "2KEY",
+      "decimals": 18,
+      "address": "0x58a19bd98d01727de9895ce39234f75cd5a1acd4"
+    },
+    "ETH": {
+      "name": "Ethereum",
+      "decimals": 18,
+      "address": "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    }
+  },
+  "exchanges": {
+    "binance": {
+      "ETH": "0x8430db5eba7745eab1904d173129b7965190055a",
+      "2KEY": "0x8430db5eba7745eab1904d173129b7965190055a"
+    }
+  },
+  "permission": {
+    "KyberReserve": {
+      "admin": "0x8430db5eba7745eab1904d173129b7965190055a",
+      "operator": [
+        "0x8430db5eba7745eab1904d173129b7965190055a"
+      ],
+      "alerter": [
+        "0x8430db5eba7745eab1904d173129b7965190055a"
+      ]
+    },
+    "LiquidityConversionRates": {
+      "admin": "0x8430db5eba7745eab1904d173129b7965190055a",
+      "operator": [
+        "0x8430db5eba7745eab1904d173129b7965190055a"
+      ],
+      "alerter": [
+        "0x8430db5eba7745eab1904d173129b7965190055a"
+      ]
+    }
+  },
+  "reserve": "0xC4Fdb3e0399f11959DDD53E356bbA18A2A780AB4",
+  "pricing": "0x3B9140E6a74B7cA28B9dBD1fD3413Ee5aaa1CC2A",
+  "network": "0x753fe1914db38ee744e071baadd123f50f9c8e46"
+}
