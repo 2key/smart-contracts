@@ -3,23 +3,23 @@
     "2KEY": {
       "name": "2KEY",
       "decimals": 18,
-      "address": "0x58a19bd98d01727de9895ce39234f75cd5a1acd4"
+      "address": "0x3e200226b285eadeccf60036c18a52b7e88c9bb2"
     }
   },
   "exchanges": {
-    "binance" : 
+    "binance" :
     {
-      "ETH" : "0x8430db5eba7745eab1904d173129b7965190055a",
-      "2KEY" : "0x8430db5eba7745eab1904d173129b7965190055a" 
+      "ETH" : "0x5eb1949424999327093d7a06619fc24170a9864e",
+      "2KEY" : "0x5eb1949424999327093d7a06619fc24170a9864e"
     }
   },
   "permission" : {
-    "KyberReserve" : { "admin" : "0x8430db5eba7745eab1904d173129b7965190055a",
-      "operator" : ["0x8430db5eba7745eab1904d173129b7965190055a"],
-      "alerter" : ["0x8430db5eba7745eab1904d173129b7965190055a"]},
-    "LiquidityConversionRates" : { "admin" : "0x8430db5eba7745eab1904d173129b7965190055a",
-      "operator" : ["0x8430db5eba7745eab1904d173129b7965190055a"],
-      "alerter" : ["0x8430db5eba7745eab1904d173129b7965190055a"]}
+    "KyberReserve" : { "admin" : "0x5eb1949424999327093d7a06619fc24170a9864e",
+      "operator" : ["0x5eb1949424999327093d7a06619fc24170a9864e"],
+      "alerter" : ["0x5eb1949424999327093d7a06619fc24170a9864e"]},
+    "LiquidityConversionRates" : { "admin" : "0x5eb1949424999327093d7a06619fc24170a9864e",
+      "operator" : ["0x5eb1949424999327093d7a06619fc24170a9864e"],
+      "alerter" : ["0x5eb1949424999327093d7a06619fc24170a9864e"]}
   },
   "output filename" : "liquidityReserve_deployment.json"
 }
